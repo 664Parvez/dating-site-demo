@@ -376,6 +376,11 @@ nav .icon_items .right_items .hambar_icon {
     font-weight: 700;
     font-size: 40px;
 }
+#second_section img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
 #second_section .heading_para {
     font-size: 20px;
 }
