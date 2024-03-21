@@ -297,7 +297,7 @@ nav .icon_items .right_items .hambar_icon {
 /* Hero */
 
 .hero_section {
-    background-image: url("../public/image/hero.jpg");
+    background-image: url("../public/image/hero.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -575,6 +575,7 @@ nav .icon_items .right_items .hambar_icon {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 20px;
+    box-shadow: 1px 1px 5px #cacaca;
 }
 #seven_section .seven_div p{
     margin-bottom: 0;
