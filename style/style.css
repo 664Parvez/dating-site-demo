@@ -2,7 +2,7 @@
 
 :root {
     --main-color: #DF415F;
-    --main-color-light: #ffdde3;
+    --main-color-light: #ffe4e9;
     --white-color: #ffffff;
     --black-color: #000000;
     --border-color: #e4e4e4;
@@ -12,6 +12,9 @@ html, body{
     /* overflow-x: hidden; */
 }
 
+a{
+    text-decoration: none;
+}
 ul {
     margin-bottom: 0;
     padding-left: 0;
@@ -376,7 +379,7 @@ nav .icon_items .right_items .hambar_icon {
     font-weight: 700;
     font-size: 40px;
 }
-#second_section img {
+#second_section .second_feature_img {
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
@@ -401,7 +404,16 @@ nav .icon_items .right_items .hambar_icon {
 
 /* Third Section */
 
-
+#third_section {
+    margin: 50px 0;
+}
+#third_section h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+#third_section .heading_para {
+    font-size: 20px;
+}
 
 /* Third Section */
 
@@ -469,7 +481,8 @@ nav .icon_items .right_items .hambar_icon {
     border: 2px dashed var(--main-color);
     text-align: center;
     padding: 40px 30px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     position: sticky;
     top: 85px;
     z-index: 1;
@@ -487,7 +500,86 @@ nav .icon_items .right_items .hambar_icon {
     margin: 20px 0;
 }
 
+/* Fifth Section */
 
+#fifth_section {
+    margin: 50px 0;
+}
+#fifth_section h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+#fifth_section .heading_para {
+    font-size: 20px;
+}
+#fifth_section .fifth_section_div {
+    background-color: var(--white-color);
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 5px #cacaca;
+    transition: .5s;
+}
+#fifth_section .fifth_section_div h5 {
+    color: var(--main-color);
+}
+#fifth_section .fifth_section_div h6, span {
+    color: var(--black-color);
+}
+#fifth_section .fifth_section_div:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+#fifth_section .fifth_section_div .fifth_big_image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#fifth_section .user_img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#fifth_section span {
+    font-size: 14px;
+}
+
+/* Fifth Section */
+
+/* Home Six Section */
+
+#six_section {
+    margin: 50px 0;
+}
+#six_section h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+#six_section .nav-link {
+    color: var(--black-color);
+}
+#six_section button.active {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+/* Home Six Section */
+
+
+/* Home Seven Section */
+#seven_section {
+    margin: 50px 0;
+}
+#seven_section .seven_div {
+    background-color: var(--white-color);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+#seven_section .seven_div p{
+    margin-bottom: 0;
+}
+/* Home Seven Section */
 
 
 /* Contact Page */
@@ -658,7 +750,9 @@ nav .icon_items .right_items .hambar_icon {
     .mobile_top {
         margin-top: 20px;
     }
-
+    #fifth_section h3 {
+        font-size: 30px;
+    }
 
     #contact_first_section .contact_first_images {
         display: none;
