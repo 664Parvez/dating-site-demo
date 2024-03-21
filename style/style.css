@@ -709,6 +709,9 @@ nav .icon_items .right_items .hambar_icon {
     nav .icon_items .right_items .hambar_icon {
         display: block;
     }
+    .hero_section {
+        padding: 10px 0;
+    }
     .hero_section h1 {
         font-size: 30px;
         margin-top: 0px;
