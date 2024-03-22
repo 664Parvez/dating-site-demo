@@ -711,9 +711,10 @@ nav .icon_items .right_items .hambar_icon {
     }
     .hero_section {
         padding: 10px 0;
+        background-image: url('../public/image/mobile-hero.webp');
     }
     .hero_section h1 {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 0px;
     }
     .hero_section p {
@@ -724,11 +725,14 @@ nav .icon_items .right_items .hambar_icon {
         height: 30px;
         width: 100%;
     }
+    .hero_counting {
+        margin-top: 5px;
+    }
     .hero_counting .mobile_col {
         width: 50% !important;
     }
     .hero_counting h3 {
-        font-size: 30px;
+        font-size: 23px;
     }
     #form_section {
         margin-top: 60px;
